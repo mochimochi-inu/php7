@@ -23,7 +23,7 @@ abstract class AbstractDisplay {
     /**
      * template methodに相当する
      */
-    public function dispay() {
+    public function display() {
         $this->displayHeader();
         $this->displayBody();
         $this->displayFooter();
